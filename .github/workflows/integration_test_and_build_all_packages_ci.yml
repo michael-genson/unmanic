@@ -1,6 +1,7 @@
 name: Build All Packages CI
 
 on:
+  workflow_dispatch:
   push:
     branches: [ 'dev-**', 'pr-**', staging, master ]
     tags: [ '**' ]
